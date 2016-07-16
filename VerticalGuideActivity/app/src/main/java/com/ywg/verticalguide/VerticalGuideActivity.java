@@ -3,6 +3,9 @@ package com.ywg.verticalguide;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+/**
+ * 垂直滑动引导页
+ */
 public class VerticalGuideActivity extends AppCompatActivity {
 
     private static final float MIN_SCALE = 0.75f;

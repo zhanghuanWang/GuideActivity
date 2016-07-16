@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 
 import java.io.IOException;
 
-public class GuideFragment extends Fragment implements TextureView.SurfaceTextureListener, MediaPlayer.OnBufferingUpdateListener, MediaPlayer.OnPreparedListener, MediaPlayer.OnCompletionListener, MediaPlayer.OnVideoSizeChangedListener {
+public class GifGuideFragment extends Fragment implements TextureView.SurfaceTextureListener, MediaPlayer.OnBufferingUpdateListener, MediaPlayer.OnPreparedListener, MediaPlayer.OnCompletionListener, MediaPlayer.OnVideoSizeChangedListener {
 
     static final SparseArray<Integer> RES = new SparseArray<>();
 
@@ -30,12 +30,12 @@ public class GuideFragment extends Fragment implements TextureView.SurfaceTextur
     MediaPlayer mMediaPlayer;
 
 
-    public GuideFragment() {
+    public GifGuideFragment() {
         // Required empty public constructor
     }
 
-    public static GuideFragment newInstance(int id) {
-        GuideFragment fragment = new GuideFragment();
+    public static GifGuideFragment newInstance(int id) {
+        GifGuideFragment fragment = new GifGuideFragment();
         Bundle bundle = new Bundle();
         bundle.putInt("Id", id);
         fragment.setArguments(bundle);

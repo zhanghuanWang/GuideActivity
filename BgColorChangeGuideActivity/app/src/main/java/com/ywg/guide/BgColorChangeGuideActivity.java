@@ -9,6 +9,9 @@ import android.widget.FrameLayout;
 
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
+/**
+ * 根据滑动渐变改变背景色 带底部小圆点指示器
+ */
 public class BgColorChangeGuideActivity extends AppCompatActivity {
 
     private FrameLayout mRootLayout;

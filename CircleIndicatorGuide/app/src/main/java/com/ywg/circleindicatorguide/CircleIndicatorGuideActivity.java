@@ -9,8 +9,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 
-public class CircleIndicatorGuideActivity extends AppCompatActivity {
+/**
+ * 底部小圆点指示器 动图显示
+ */
+public class CircleIndicatorGuideActivity extends AppCompatActivity implements View.OnClickListener {
 
     public static final int PAGE_COUNT = 4;
 
@@ -20,11 +24,17 @@ public class CircleIndicatorGuideActivity extends AppCompatActivity {
 
     private GuideAdapter mAdapter;
 
+    private Button mBtnSkip;
+
+    private Button mBtnLaunch;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circle_indicator_guide);
 
+        mBtnSkip = (Button) findViewById(R.id.btn_skip);
+        mBtnLaunch = (Button) findViewById(R.id.btn_launch);
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mCircleIndicator = (CircleIndicator) findViewById(R.id.circle_indicator);
 
@@ -35,6 +45,8 @@ public class CircleIndicatorGuideActivity extends AppCompatActivity {
 
         clearOverScrollEffect(mViewPager);
 
+        mBtnSkip.setOnClickListener(this);
+        mBtnLaunch.setOnClickListener(this);
     }
 
     ViewPager.OnPageChangeListener onPageChangeListener = new ViewPager.OnPageChangeListener() {
@@ -42,6 +54,11 @@ public class CircleIndicatorGuideActivity extends AppCompatActivity {
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             //TODO
             //status bar background color
+            if (position == (PAGE_COUNT - 1)) {
+                mBtnLaunch.setVisibility(View.VISIBLE);
+            }else{
+                mBtnLaunch.setVisibility(View.GONE);
+            }
         }
 
         @Override
@@ -64,7 +81,19 @@ public class CircleIndicatorGuideActivity extends AppCompatActivity {
         }
     }
 
-    static class GuideAdapter extends FragmentPagerAdapter {
+    @Override
+    public void onClick(View view) {
+        switch (view.getId())  {
+            case R.id.btn_skip:
+
+                break;
+            case R.id.btn_launch:
+
+                break;
+        }
+    }
+
+    public class GuideAdapter extends FragmentPagerAdapter {
 
         public GuideAdapter(FragmentManager fm) {
             super(fm);
@@ -72,7 +101,8 @@ public class CircleIndicatorGuideActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return GuideFragment.newInstance(position);
+            return GifGuideFragment.newInstance(position);
+             //return ImageGuideFragment.newInstance(position);
         }
 
         @Override
