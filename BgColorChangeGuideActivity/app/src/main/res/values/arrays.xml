@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="guide_desc">
+        <item>第一页</item>
+        <item>第二页</item>
+        <item>第三页</item>
+        <item>第四页</item>
+    </string-array>
+    <array name="guide_icon">
+        <item>@drawable/qunzu_feature_bg2_pop</item>
+        <item>@drawable/qunzu_feature_bg3_pop</item>
+        <item>@drawable/qunzu_feature_bg4_pop</item>
+        <item>@drawable/qunzu_feature_bg5_pop</item>
+    </array>
+    <array name="guide_bg">
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_blue_light</item>
+    </array>
+</resources>

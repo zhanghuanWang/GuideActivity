@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="vertical_viewpager">false</item>
+    <item type="id" name="view_scroller">false</item>
+    <item type="id" name="scrolling_text">false</item>
+    <item type="id" name="feature_title">false</item>
+    <item type="id" name="feature_textview_group">false</item>
+    <item type="id" name="feature_content_bg1_row1">false</item>
+    <item type="id" name="feature_content_bg1_row2">false</item>
+    <item type="id" name="feature_content_bg1_row3">false</item>
+    <item type="id" name="feature_content_bg1_row4">false</item>
+    <item type="id" name="feature_content_bg1_row5">false</item>
+    <item type="id" name="arrow">false</item>
+    <item type="id" name="feature_content_bg2_row1">false</item>
+    <item type="id" name="feature_content_bg2_row2">false</item>
+    <item type="id" name="feature_content_bg2_row3">false</item>
+    <item type="id" name="feature_content_bg2_row4">false</item>
+    <item type="id" name="feature_content_bg2_row5">false</item>
+    <item type="id" name="feature_bg2_icon">false</item>
+    <item type="id" name="feature_bg2_pop">false</item>
+    <item type="id" name="feature_content_bg3_row1">false</item>
+    <item type="id" name="feature_content_bg3_row2">false</item>
+    <item type="id" name="feature_content_bg3_row3">false</item>
+    <item type="id" name="feature_content_bg3_row4">false</item>
+    <item type="id" name="feature_content_bg3_row5">false</item>
+    <item type="id" name="feature_bg3_icon">false</item>
+    <item type="id" name="feature_bg3_pop">false</item>
+    <item type="id" name="feature_content_bg4_row1">false</item>
+    <item type="id" name="feature_content_bg4_row2">false</item>
+    <item type="id" name="feature_content_bg4_row3">false</item>
+    <item type="id" name="feature_content_bg4_row4">false</item>
+    <item type="id" name="feature_content_bg4_row5">false</item>
+    <item type="id" name="feature_bg4_icon">false</item>
+    <item type="id" name="feature_bg4_pop">false</item>
+    <item type="id" name="feature_content_bg5_row1">false</item>
+    <item type="id" name="feature_content_bg5_row2">false</item>
+    <item type="id" name="feature_content_bg5_row3">false</item>
+    <item type="id" name="feature_content_bg5_row4">false</item>
+    <item type="id" name="feature_content_bg5_row5">false</item>
+    <item type="id" name="feature_bg5_icon">false</item>
+    <item type="id" name="feature_bg5_pop">false</item>
+    <item type="id" name="scrolling_text1">false</item>
+    <item type="id" name="scrolling_text2">false</item>
+    <item type="id" name="feature_content_bg6_row1">false</item>
+    <item type="id" name="feature_content_bg6_row2">false</item>
+    <item type="id" name="feature_content_bg6_row3">false</item>
+    <item type="id" name="feature_content_bg6_row4">false</item>
+    <item type="id" name="feature_content_bg6_row5">false</item>
+
+</resources>
