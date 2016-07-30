@@ -103,5 +103,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="20.0dip"
-        android:src="@drawable/qunzu_feature_arrow" />
+        android:src="@drawable/qunzu_feature_arrow"/>
 </FrameLayout>
